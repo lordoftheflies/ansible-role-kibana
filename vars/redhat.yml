@@ -1,0 +1,4 @@
+---
+# roles/kibana/vars/debian.yml
+
+kibana_package_extension: 'rpm'

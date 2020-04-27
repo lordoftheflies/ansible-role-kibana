@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - kibana_deployment_users_home: /root
+    - kibana_testing_provider: lxd
+
+  roles:
+    - kibana

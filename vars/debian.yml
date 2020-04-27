@@ -1,0 +1,5 @@
+---
+# roles/kibana/vars/debian.yml
+
+# Debian specific vars
+kibana_package_extension: 'deb'
